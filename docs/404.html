@@ -1,0 +1,39 @@
+<!DOCTYPE html><html lang="en" class="bg-[var(--page-bg)] transition text-[14px] md:text-[16px]" data-overlayscrollbars-initialize data-astro-cid-sckkx6r4 style="--bannerOffset: 15vh;--banner-height-home: 65vh;--banner-height: 35vh;--configHue: 250;--page-width: 75rem;"> <head><title>Not found - Fuwari</title><meta charset="UTF-8"><meta name="description" content="Not found - Fuwari"><meta name="author" content="Lorem Ipsum"><meta property="og:site_name" content="Fuwari"><meta property="og:url" content="https://dranubhaparashar.github.io/anubha/404/"><meta property="og:title" content="Not found - Fuwari"><meta property="og:description" content="Not found - Fuwari"><meta property="og:type" content="website"><meta name="twitter:card" content="summary_large_image"><meta property="twitter:url" content="https://dranubhaparashar.github.io/anubha/404/"><meta name="twitter:title" content="Not found - Fuwari"><meta name="twitter:description" content="Not found - Fuwari"><meta name="viewport" content="width=device-width"><meta name="generator" content="Astro v5.8.1"><link rel="icon" href="/anubha/favicon/favicon-light-32.png" sizes="32x32" media="(prefers-color-scheme: light)"><link rel="icon" href="/anubha/favicon/favicon-light-128.png" sizes="128x128" media="(prefers-color-scheme: light)"><link rel="icon" href="/anubha/favicon/favicon-light-180.png" sizes="180x180" media="(prefers-color-scheme: light)"><link rel="icon" href="/anubha/favicon/favicon-light-192.png" sizes="192x192" media="(prefers-color-scheme: light)"><link rel="icon" href="/anubha/favicon/favicon-dark-32.png" sizes="32x32" media="(prefers-color-scheme: dark)"><link rel="icon" href="/anubha/favicon/favicon-dark-128.png" sizes="128x128" media="(prefers-color-scheme: dark)"><link rel="icon" href="/anubha/favicon/favicon-dark-180.png" sizes="180x180" media="(prefers-color-scheme: dark)"><link rel="icon" href="/anubha/favicon/favicon-dark-192.png" sizes="192x192" media="(prefers-color-scheme: dark)"><!-- Set the theme before the page is rendered to avoid a flash --><script>(function(){const DEFAULT_THEME = "auto";
+const LIGHT_MODE = "light";
+const DARK_MODE = "dark";
+const AUTO_MODE = "auto";
+const BANNER_HEIGHT_EXTEND = 30;
+const PAGE_WIDTH = 75;
+const configHue = 250;
+
+			// Load the theme from local storage
+			const theme = localStorage.getItem('theme') || DEFAULT_THEME;
+			switch (theme) {
+				case LIGHT_MODE:
+					document.documentElement.classList.remove('dark');
+					break
+				case DARK_MODE:
+					document.documentElement.classList.add('dark');
+					break
+				case AUTO_MODE:
+					if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+						document.documentElement.classList.add('dark');
+					} else {
+						document.documentElement.classList.remove('dark');
+					}
+			}
+
+			// Load the hue from local storage
+			const hue = localStorage.getItem('hue') || configHue;
+			document.documentElement.style.setProperty('--hue', hue);
+
+			// calculate the --banner-height-extend, which needs to be a multiple of 4 to avoid blurry text
+			let offset = Math.floor(window.innerHeight * (BANNER_HEIGHT_EXTEND / 100));
+			offset = offset - offset % 4;
+			document.documentElement.style.setProperty('--banner-height-extend', `${offset}px`);
+		})();</script><!-- defines global css variables. This will be applied to <html> <body> and some other elements idk why --><link rel="alternate" type="application/rss+xml" title="Lorem Ipsum" href="https://dranubhaparashar.github.io/anubha/rss.xml"><link rel="stylesheet" href="/anubha/_astro/Layout.DSulWsr7.css">
+<link rel="stylesheet" href="/anubha/_astro/Layout.CFwGdNXj.css">
+<link rel="stylesheet" href="/anubha/_astro/_page_.MjHzzoKg.css">
+<link rel="stylesheet" href="/anubha/_astro/_page_.DV5UqOS2.css"><script type="module" src="/anubha/_astro/page.BaWBZU4k.js"></script></head> <body class=" min-h-screen transition " data-overlayscrollbars-initialize data-astro-cid-sckkx6r4 style="--bannerOffset: 15vh;--banner-height-home: 65vh;--banner-height: 35vh;--configHue: 250;--page-width: 75rem;"> <div id="config-carrier" data-hue="250"></div>  <div class="rounded-[var(--radius-large)] overflow-hidden relative w-[40rem] h-[20rem] m-auto"> <div class="card-base z-10 px-9 py-6 relative w-full text-black/75 dark:text-white/75"> <div class="flex items-center gap-4"> <h1 class="text-[5rem] font-bold">404</h1> <p class="text-[2rem]">Not found</p> </div> <a href="/anubha/" class="font-bold overflow-hidden active:scale-95"> <div class="btn-plain transition max-w-fit rounded-2xl h-[3.75rem] px-4 flex items-center justify-start gap-2">
+Return to top page
+<svg width="1em" height="1em" class="text-[1.75rem]" data-icon="material-symbols:chevron-right-rounded">   <symbol id="ai:material-symbols:chevron-right-rounded" viewBox="0 0 24 24"><path fill="currentColor" d="M12.6 12L8.7 8.1q-.275-.275-.275-.7t.275-.7t.7-.275t.7.275l4.6 4.6q.15.15.213.325t.062.375t-.062.375t-.213.325l-4.6 4.6q-.275.275-.7.275t-.7-.275t-.275-.7t.275-.7z"/></symbol><use href="#ai:material-symbols:chevron-right-rounded"></use>  </svg> </div> </a> </div> </div>  <!-- increase the page height during page transition to prevent the scrolling animation from jumping --> <div id="page-height-extend" class="hidden h-[300vh]" data-astro-cid-sckkx6r4 style="--bannerOffset: 15vh;--banner-height-home: 65vh;--banner-height: 35vh;--configHue: 250;--page-width: 75rem;"></div>  <script type="module" src="/anubha/_astro/Layout.astro_astro_type_script_index_0_lang.C_Hk6HzW.js"></script> <script type="module" src="/anubha/_astro/Layout.astro_astro_type_script_index_1_lang.Drk9aNBz.js"></script></body></html>

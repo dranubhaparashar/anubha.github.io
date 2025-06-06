@@ -33,8 +33,6 @@ export default defineConfig({
 		tailwind({
 			nesting: true,
 		}),
-		svelte(),
-		sitemap(),
 		swup({
 			theme: false,
 			animationClass: "transition-swup-", // see https://swup.js.org/options/#animationselector
